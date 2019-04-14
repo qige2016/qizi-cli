@@ -1,0 +1,19 @@
+{
+  "name": "qizi-cli",
+  "version": "1.0.0",
+  "description": "一个关于vue后台管理系统的脚手架",
+  "bin": {
+    "qizi": "./bin/qizi"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "download-git-repo": "^1.1.0",
+    "glob": "^7.1.3",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.0",
+    "log-symbols": "^2.2.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^3.0.0"
+  }
+}
