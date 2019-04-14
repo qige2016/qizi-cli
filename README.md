@@ -1,7 +1,7 @@
 ## Installation
 
-// npm
-npm install -g qizi-cli
+	// npm
+	npm install -g qizi-cli
 
 # Usage
 
