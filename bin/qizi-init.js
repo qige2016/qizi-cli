@@ -90,12 +90,7 @@ function go() {
             default: getGithubConfig
           }
         ]).then(answers => {
-          return {
-            ...context,
-            metadata: {
-              ...answers
-            }
-          }
+          return Object.assign(context, {metadata: Object.assign({}, answers)})
         })
       }).then(context => {
         // 添加生成的逻辑
