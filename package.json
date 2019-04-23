@@ -1,6 +1,6 @@
 {
   "name": "qizi-cli",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "一个关于vue后台管理系统的脚手架",
   "bin": {
     "qizi": "./bin/qizi"
