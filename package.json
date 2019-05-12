@@ -1,10 +1,27 @@
 {
   "name": "qizi-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "一个关于vue后台管理系统的脚手架",
   "bin": {
     "qizi": "./bin/qizi"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qige2016/qizi-cli.git"
+  },
+  "keywords": [
+    "vue",
+    "qizi-cli"
+  ],
+  "author": "qige2016",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qige2016/qizi-cli/issues"
+  },
+  "homepage": "https://github.com/qige2016/qizi-cli#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.18.0",
